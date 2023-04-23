@@ -39,6 +39,7 @@ h1 {
   width: 180px;
   height: 180px;
   padding: 4px;
+  margin: auto 8px;
 }
 
 .slideshow-wrapper img {
@@ -48,6 +49,6 @@ h1 {
 }
 
 .slideshow-wrapper img:hover {
-  transform: rotate(10deg);
-  transition: all 0.5s;
+  transform: scale3d(1.1, 1.1, 1.1) rotate(360deg);
+  transition: all 0.5s ease-out;
 }
