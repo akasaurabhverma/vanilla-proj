@@ -55,11 +55,8 @@ const fragment = document.createDocumentFragment();
 
 itemData.forEach((data) => {
   const div = document.createElement("div");
-  // const image = document.createElement("img");
-  // image.src = data.img;
-  // image.alt = data.title;
-  // div.appendChild(image);
   div.innerHTML = `<img src="${data.img}" alt="${data.title}" />`;
+
   fragment.appendChild(div);
 });
 
